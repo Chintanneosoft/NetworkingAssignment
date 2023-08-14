@@ -20,7 +20,7 @@ struct ProductsData: Codable {
     let id, productCategoryID: Int
     let name, producer, description: String
     let cost, rating, viewCount: Int
-    let created, modified: Date
+    let created, modified: String
     let productImages: String
 
     enum CodingKeys: String, CodingKey {
